@@ -1,0 +1,13 @@
+.padre{
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 4px;
+    width: 50%;
+    background-color: blue;
+}
+
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

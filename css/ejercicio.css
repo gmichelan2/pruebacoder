@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Youtube Sans Dark Light";
+    src: url("../fonts/youtubeSans/YouTubeSansDark-Light.ttf");
+}
+
+@font-face {
+    font-family: "Youtube Sans Dark Bold";
+    src: url("../fonts/youtubeSans/YouTubeSansDark-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Youtube Sans Dark Regular";
+    src: url("../fonts/youtubeSans/YouTubeSansDark-Regular.ttf");
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*Completar*/
+.contenedor{
+    background-color: #181818;
+    color: white;
+    height: 100vh;
+    display:grid;
+    grid-template-rows: 8% 7% repeat(2,1fr);
+    grid-template-columns: 7% repeat(4,1fr);
+}
+
+/*Completar*/
+.encabezado{
+    background-color:rgba(48,48,48,0.19);
+    grid-column:2/6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezadoLeft{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items:center;
+    width: 15%;
+}
+
+.encabezadoLeft img{
+    width: 100px;
+}
+
+.encabezadoMiddle{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.encabezadoMiddle form{
+    display: flex;
+    flex-direction: row;
+}
+
+.encabezadoMiddle input{
+    width: 540px;
+    height: 40px;
+    background-color: #181818;
+    border: solid 1px rgba(255,255,255,0.1);
+}
+
+.encabezadoMiddle input::placeholder{
+    color: #828282;
+    font-weight: bold;
+}
+
+
+.encabezadoMiddle img{
+    width: 64px;
+    height: 40px;
+}
+
+/*Completar microfono*/
+.encabezadoMiddle #micro{
+    background-color: #181818;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+/*Completar microfono*/
+.encabezadoMiddle #micro img{
+    width: 10px;
+    height: 17px;
+}
+
+.encabezadoRight{
+    width: 15%;
+}
+
+.encabezadoRight img{
+    width: 22px;
+    height: 22px;
+}
+
+.encabezadoRight #user{
+    width: 32px;
+    height: 32px;
+}
+
+/*Completar*/
+.chipContainer{
+    background-color:rgba(48,48,48,0.19) ;
+    border-top: solid 1px rgba(255,255,255,0.1);
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+    padding-top:10px;
+    padding-bottom:10px;
+    grid-column: 2/6;
+}
+.chip{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 13px;
+    border: solid 1px rgba(255,255,255,0.1);
+    padding: 8px;
+    min-width: 75px;
+    height: 33px;
+    border-radius: 20px;
+    display: inline-block; 
+    margin-left: 10px;
+    background-color: #373737;
+    font-family:"Youtube Sans Dark Regular", sans-serif ;
+    font-weight: bold;
+}
+
+.chip:hover{
+    background-color: #fff3;
+}
+
+#todos{
+    background-color: #FFFFFF;
+    color:#373737;
+}
+
+/*Completar*/
+.navmenu{
+    background-color:rgba(48,48,48,0.19);
+    grid-row: 1/5;
+    /*grid-row-start:1;
+    grid-row-end:5;*/
+}
+
+.navmenu div{
+    width: 72px;
+    height: 74px;
+    text-align: center;
+}
+
+#hamburguericon{
+    margin-top: 15px;
+}
+
+.navmenu div img, .navmenu img{
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+/*Completar*/
+.card{
+    width: 400px;
+    height: 250px;
+    justify-self: center;
+}
+
+/*Completar*/
+.card div{
+ 
+}
+
+.card div h2{
+    margin-left: 5px;
+    width: 75%;
+}
+
+.card img{
+    width: 36px;
+    height: 36px;
+}
+
+.card h2{
+    font-family: "Youtube Sans Dark Bold", sans-serif;
+}
+
+.cardIframe{
+    width: 100%;
+    height: 250px;
+}

@@ -1,0 +1,18 @@
+.padre{
+    width: 800px;
+    height: 600px;
+    border: solid 1px black;
+    background-color: rgb(213, 222, 212);
+    border: 2px dashed rgba(114, 186, 94, 0.35);
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.hijo{
+    background-color: tomato;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    border: 2px dashed rgba(236, 198, 48, 0.5);
+}
