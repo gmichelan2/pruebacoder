@@ -1,4 +1,4 @@
-<img src="images/youtube.png">
+<img src="images/youtube.png" width="100px">
 
 # Proyecto desarrollo web Coderhouse 
 
